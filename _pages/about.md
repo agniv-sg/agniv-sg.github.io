@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <!-- <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. -->
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  <!-- more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Your City, State 12345</p> -->
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,9 +27,9 @@ latest_posts:
   limit:  # leave blank to include all the blog posts
 ---
 
-Dr. Agniv Sengupta is a Sr. Computational Research Scientist and the Machine Learning team lead of the Center for Western Weather and Water Extremes (CW3E), Scripps Institution of Oceanography at the University of California San Diego. His research interests include climate dynamics, hydroclimate prediction, and applications of artificial intelligence and machine learning in geophysical research. His current projects focus on improving the prediction skill of sub-seasonal and seasonal forecasts in the Western United States. This involves exploring innovative algorithms and approaches, advancing models for predictions across multiple timescales, and developing decision support tools and forecast products in coordination with stakeholders.
+Dr. Agniv Sengupta is a Sr. Computational Research Scientist and the Machine Learning team lead of the [Center for Western Weather and Water Extremes (CW3E)](https://cw3e.ucsd.edu/), Scripps Institution of Oceanography at the University of California San Diego. His research interests involve the application of artificial intelligence and machine learning methods in geophysical research. His current projects focus on improving the prediction skill of extreme weather events in the Western United States. This involves exploring innovative algorithms and approaches, advancing models for predictions across multiple timescales (weather, subseasonal, and seasonal), and developing decision support tools and forecast products in coordination with stakeholders.
 
-Prior to joining CW3E, Dr. Sengupta was a postdoctoral scholar (2020-21) with Dr. Duane E. Waliser at the NASA Jet Propulsion Laboratory (JPL). At NASA-JPL, his research focused primarily on leveraging sources of predictability at longer lead times for the development and dissemination of seasonal winter precipitation forecasts over the western United States using novel statistical and machine learning methods. In the interest of supporting the Fifth U.S. National Climate Assessment Report, he also investigated the representation of the global and regional water cycle in climate model simulations. Dr. Sengupta earned his Ph.D. (2020) and M.S. (2016) in Atmospheric and Oceanic Science from the University of Maryland College Park under the supervision of Dr. Sumant Nigam. His doctoral research focused on sea surface temperature-based statistical forecasting of the South-Southeast Asian summer monsoon rainfall. His M.S. thesis involved an attribution analysis of the evolution of the 2015-16 El Niño episode.
+Prior to joining CW3E, Dr. Sengupta was a postdoctoral scholar (2020-21) with [Dr. Duane E. Waliser](https://science.jpl.nasa.gov/people/waliser/) at the NASA Jet Propulsion Laboratory (JPL). At NASA-JPL, his research focused primarily on leveraging sources of predictability at longer lead times for the development and dissemination of seasonal winter precipitation forecasts over the western United States using novel statistical and machine learning methods. In the interest of supporting the Fifth U.S. National Climate Assessment Report, he also investigated the representation of the global and regional water cycle in climate model simulations. Dr. Sengupta earned his Ph.D. (2020) and M.S. (2016) in Atmospheric and Oceanic Science from the University of Maryland College Park under the supervision of [Dr. Sumant Nigam](https://www2.atmos.umd.edu/~nigam/). His doctoral research focused on sea surface temperature-based statistical forecasting of the South-Southeast Asian summer monsoon rainfall. His M.S. thesis involved an attribution analysis of the evolution of the 2015-16 El Niño episode.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
