@@ -9,8 +9,8 @@
   abstract = {Machine learning (ML) poses a potential paradigm shift in weather forecasting, but critical questions arise regarding its ability to predict high-impact weather events. This study evaluates five state-of-the-art ML models—Aurora, GraphCast, PanguWeather, FourCastNetV2, FourCastNet—in forecasting U.S. West Coast atmospheric rivers (ARs), compared to the high-performing physics-based European Center for Medium-Range Weather Forecasts' high-resolution system (HRES) model. Analysis of 152 daily forecast cycles (November 2023–March 2024) reveals significant performance differences between the systems. While ML models often show better variable-specific root mean square error (RMSE), HRES has superior AR detection skill for the first four forecast days. PanguWeather matches HRES skill beyond day four; other ML models lag slightly. Aurora consistently exhibits the lowest AR detection performance, despite strong variable-specific RMSE metrics, highlighting a disconnect between RMSE performance and its ability to predict AR events. These findings underscore the need for phenomenon-specific metrics for ML-based numerical weather prediction model assessment and operational implementation.},
   bibtex_show={true},
   pdf = {https://doi.org/10.1029/2025GL117609},
-  preview = {isaac-phys-aiwp-2026.jpg},
-  publisher={Wiley Online Library}
+  publisher={Wiley Online Library},
+  preview = {isaac-phys-aiwp-2026.jpg}
 }
 
 @article{afzali2026enhancing,
@@ -24,8 +24,8 @@
   abstract = {Accurate prediction of the freezing level (FZL) is essential for hydrometeorological forecasting systems, with direct implications for runoff generation and reservoir management. In this study, we develop a deep learning–based postprocessing framework using the U-Net convolutional neural network (CNN) architecture to refine the FZL forecasts from the West Weather Research and Forecasting (West-WRF) Model. The proposed framework leverages reforecast data from West-WRF and FZL estimates from the California Nevada River Forecast Center (CNRFC) to develop U-Net models over the northern Sierra Nevada watersheds, such as the hydrologically critical Yuba–Feather watershed. We introduce two U-Net model variants, U-Net-log and U-Net Gaussian mixture model (U-Net-GMM), that employ specialized loss functions beyond the standard benchmarks to enhance forecast skill. U-Net-log utilizes the log-cosh cosine of error, and U-Net-GMM uses Gaussian mixture model loss functions, to enhance FZL forecasts. Results show that U-Net-based postprocessing reduces centered root-mean-square errors by up to 20% and increases forecast–observation correlation by about 10% compared to raw West-WRF. Evaluation using the continuous ranked probability score (CRPS) for U-Net-GMM further demonstrates consistent improvements across lead times. While performance fluctuates with forecast horizon, storm variability, and diurnal forcing, U-Net-GMM and U-Net-log consistently outperform the baseline. The models capture the spatiotemporal variability of the FZL across different elevations, mitigating biases from the West-WRF Model. This novel deep learning–based postprocessing approach demonstrates a promising pathway for integrating machine learning into hydrometeorological forecasting and decision support within the Forecast-Informed Reservoir Operations (FIRO) framework.},
   bibtex_show={true},
   pdf = {https://doi.org/10.1175/JHM-D-25-0052.1},
-  preview = {vesta-FZL-2026.jpg},
-  publisher={American Meteorological Society}
+  publisher={American Meteorological Society},
+  preview = {vesta-FZL-2026.jpg}
 }
 
 @article{afzali2026deterministic,
@@ -36,8 +36,8 @@
   abstract = {We present a generative modeling approach for nowcasting infrared (IR) brightness temperatures (Tb) from geostationary satellite observations (~ 10.8 μm) that couples a denoising diffusion probabilistic model with a 3D U-Net backbone. Using SEVIRI observations, the model ingests six hours of IR history and produces six-hour nowcasts at 15-min resolution. Deterministic evaluation is performed on an independent July–September 2022 test set and benchmarked against 3D U-Net, ConvLSTM, and Optical Flow extrapolation baselines. The diffusion model enhances prediction accuracy, yielding lower errors and higher correlation than all baselines across most forecast lead times, with a persistent advantage through the 2-hour lead time and reduced but still evident gains at longer leads. We complement the statistical assessments with a perceptual and a probabilistic diagnostic; diffusion achieves the highest SSIM at all leads and the lowest CRPS among all models (CRPS generates MAE for deterministic baselines). RAPSD analysis shows improved retention of high-frequency variance relative to deep learning baselines while avoiding the texture-only limitations of Optical Flow. Spatial maps demonstrate that our diffusion model significantly outperforms the baselines, indicating smaller errors over the study region. Two case studies show coherent structures in Tb forecasts, sharper gradients, and improved localization of evolving cold features. Overall, coupling diffusion with 3D U-Net delivers more structurally faithful satellite nowcasts than traditional extrapolation and deep learning baselines, particularly at short to intermediate leads.},
   bibtex_show={true},
   pdf = {https://www.nature.com/articles/s41598-025-34207-9},
-  preview = {vesta-nowcasting-diff-2026.jpg},
-  publisher={Nature Publishing Group UK London}
+  publisher={Nature Publishing Group UK London},
+  preview = {vesta-nowcasting-diff-2026.jpg}
 }
 
 @article{sengupta2025role,
@@ -99,8 +99,8 @@
   abstract = {Neural Weather Models (NWM) are novel data-driven weather forecasting tools based on neural networks, that have recently achieved comparable deterministic forecast skill to current operational approaches using significantly less real-time computational resources. They require short inference times, which can potentially improve the characterization of forecast uncertainty by designing very large ensembles, which is of paramount importance for for example, extreme events, and critical for various socio-economic sectors. Here we propose a novel ensemble design for NWMs spanning two main sources of uncertainty: model uncertainty and initial condition uncertainty. For the model uncertainty, we propose an effective strategy for creating a diverse ensemble of NWMs that captures uncertainty in key model parameters. For the initial condition uncertainty, we explore the “breeding of growing modes” for the first time on NWMs, a technique traditionally used for operational numerical weather predictions to estimate the initial condition uncertainty. The combination of these two types of uncertainty produces an ensemble of NWM-based forecasts that is shown to improve upon benchmark probabilistic NWM and is competitive with the 50-member ensemble of the European Centre for Medium-Range Weather Forecasts based on the Integrated Forecasting System (IFS), in terms of both error and calibration. Results are particularly promising over land for three key variables: total column water vapor, surface wind and surface air temperature. The proposed strategy is scalable, enabling the generation of very large ensembles (>100) with potential applications for extreme events.},
   bibtex_show={true},
   pdf = {https://doi.org/10.1029/2024MS004734},
-  preview = {jorge-JAMES-2025.jpg},
-  publisher={Wiley Online Library}
+  publisher={Wiley Online Library},
+  preview = {vesta-nowcasting-diff-2026.jpg}
 }
 
 @article{bano2025harnessing,
