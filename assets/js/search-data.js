@@ -419,8 +419,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-a-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
-          title: 'Received a National Artificial Intelligence Research Resource (NAIRR) Pilot award for AI weather...',
+            },},{id: "news-received-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
+          title: 'Received National Artificial Intelligence Research Resource (NAIRR) Pilot award for AI weather modeling...',
           description: "",
           section: "News",},{id: "news-publication-in-communications-earth-amp-amp-environment-on-improving-seasonal-precipitation-forecasts-in-the-western-u-s",
           title: 'Publication in Communications Earth &amp;amp;amp; Environment on improving seasonal precipitation forecasts in the...',
