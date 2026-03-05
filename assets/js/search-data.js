@@ -491,6 +491,20 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/agniv-sengupta-a91068137", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-3687-5549", "_blank");
+        },
+      },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
@@ -503,13 +517,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%61%67%73%65%6E%67%75%70%74%61@%75%63%73%64.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
