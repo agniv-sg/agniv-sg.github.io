@@ -384,10 +384,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-selection-for-the-american-meteorological-society-ams-s-early-career-leadership-academy-ecla-class-of-2023",
-          title: 'Selection for the American Meteorological Society (AMS)’s Early Career Leadership Academy (ECLA) Class...',
-          description: "",
-          section: "News",},{id: "news-cw3e-ml-team-s-work-to-improve-the-prediction-of-atmospheric-rivers-highlighted-in-uc-san-diego-today",
+            },},{id: "news-cw3e-ml-team-s-work-to-improve-the-prediction-of-atmospheric-rivers-highlighted-in-uc-san-diego-today",
           title: 'CW3E ML team’s work to improve the prediction of atmospheric rivers highlighted in...',
           description: "",
           section: "News",},{id: "news-received-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
