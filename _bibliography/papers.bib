@@ -144,7 +144,8 @@
   abstract = {Accurate streamflow forecasts are crucial but remain challenging for the arid Western United States (U.S.). Recently, machine learning methods such as long short-term memory (LSTM) have exhibited high accuracy in streamflow simulation and strong abilities to integrate observations to enhance performance. This study evaluated an LSTM-based data integration approach that incorporates streamflow (Q) and snow water equivalent (SWE) observations to improve streamflow estimations across different lag times (1–10 d, 1–6 months) and timescales (daily and monthly) over hundreds of basins in the Western U.S. Integrating Q at the daily scale provided the greatest improvements, increasing the median Kling-Gupta Efficiency (KGE) of 646 basins from 0.80 to 0.96 when integrating 1 d lagged Q, and remaining at 0.89 even with a 10 d lag. Integrating Q at the monthly scale also enhanced streamflow estimations, though to a lesser extent than at the daily scale, with the median KGE rising from 0.80 to 0.86 when integrating 1-month lagged streamflow. The next most notable improvement resulted from integrating SWE at the monthly scale, where the median KGE improved to 0.86 when integrating 1-month lagged SWE. Furthermore, SWE integration showed greater benefits at the monthly scale in snow-dominated basins during snowmelt season, which was beneficial for spring-summer flow estimations. However, integrating SWE at the daily scale did not show improvements. These results highlight the potential of this LSTM-based data integration approach for both short-term and long-term streamflow forecasting due to its performance, automation and efficiency.},
   bibtex_show={true},
   pdf = {https://hess.copernicus.org/articles/29/5453/2025/},
-  publisher={Copernicus Publications G{\"o}ttingen, Germany}
+  publisher={Copernicus Publications G{\"o}ttingen, Germany},
+  preview = {yuan-LSTM-2025.png}
 }
 
 @article{yang2025global,
@@ -158,5 +159,6 @@
   abstract = {To expand the spatial coverage of the conventional Basin Long Short-Term Memory (LSTM) model for river discharge estimation beyond pre-selected individual locations, we developed a discharge modeling scheme, Grid LSTM-RAPID, to estimate discharge for every river reach worldwide. Grid LSTM-RAPID applies LSTM runoff estimation to the grids (0.25°), small rectangular hydrological response units (HRUs) rather than basins (irregularly shaped HRUs of any size), and then routes the grid runoff over all reaches on a global river network using the RAPID routing model. It largely maintains the strong performance of Basin LSTM over gauged basins and achieves a median Kling-Gupta Efficiency (KGE) of 0.653 for small basins out-of-sample both temporally and spatially (0.688 for out-of-sample temporally), and a median KGE of 0.592 for other basins with larger areas and less data quality. Compared to Basin LSTM, Grid LSTM-RAPID loses about 0.03 in median KGE for basins out-of-sample in both time and space in exchange for global all-reach coverage without heavy cost. Despite this tradeoff, it significantly outperforms a well-calibrated process-based benchmark model. Using the new scheme, we create an improved global reach-level daily discharge data set from 1980 to near present named GRADES-hydroDL, which is openly shared at https://www.reachhydro.org/home/records/grades-hydrodl.},
   bibtex_show={true},
   pdf = {https://doi.org/10.1029/2024WR039764},
-  publisher={Wiley Online Library}
+  publisher={Wiley Online Library},
+  preview = {yuan-river-routing-2025.png}
 }
