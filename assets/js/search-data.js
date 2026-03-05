@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-received-a-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
+            },},{id: "news-received-a-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
           title: 'Received a National Artificial Intelligence Research Resource (NAIRR) Pilot award for AI weather...',
           description: "",
           section: "News",},{id: "news-publication-in-communications-earth-amp-amp-environment-on-improving-seasonal-precipitation-forecasts-in-the-western-u-s",
