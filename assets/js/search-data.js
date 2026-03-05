@@ -391,14 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
+            },},{id: "news-cw3e-ml-team-s-work-to-improve-the-prediction-of-atmospheric-rivers-highlighted-in-uc-san-diego-today",
+          title: 'CW3E ML team’s work to improve the prediction of atmospheric rivers highlighted in...',
+          description: "",
+          section: "News",},{id: "news-received-national-artificial-intelligence-research-resource-nairr-pilot-award-for-ai-weather-modeling-and-prediction",
           title: 'Received National Artificial Intelligence Research Resource (NAIRR) Pilot award for AI weather modeling...',
           description: "",
           section: "News",},{id: "news-publication-in-communications-earth-amp-amp-environment-on-improving-seasonal-precipitation-forecasts-in-the-western-u-s",
           title: 'Publication in Communications Earth &amp;amp;amp; Environment on improving seasonal precipitation forecasts in the...',
-          description: "",
-          section: "News",},{id: "news-cw3e-ml-team-s-work-to-improve-the-prediction-of-atmospheric-rivers-highlighted-in-uc-san-diego-today",
-          title: 'CW3E ML team’s work to improve the prediction of atmospheric rivers highlighted in...',
           description: "",
           section: "News",},{id: "news-our-paper-a-regional-high-resolution-ai-weather-model-for-the-prediction-of-atmospheric-rivers-and-extreme-precipitation-published-in-npj-climate-and-atmospheric-science",
           title: 'Our paper “A regional high resolution AI weather model for the prediction of...',
