@@ -399,7 +399,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-a-regional-high-resolution-ai-weather-model-for-the-prediction-of-atmospheric-rivers-and-extreme-precipitation-published-in-npj-climate-and-atmospheric-science",
           title: 'Our paper “A regional high resolution AI weather model for the prediction of...',
           description: "",
-          section: "News",},{id: "news-invited-to-present-ai-prediction-work-for-atmospheric-rivers-and-extreme-precipitation-at-the-quot-2026-nairr-annual-meeting-quot-https-events-internet2-edu-website-89730-program-in-arlington-va",
+          section: "News",},{id: "news-invited-to-present-ai-prediction-work-for-atmospheric-rivers-and-extreme-precipitation-at-the-2026-nairr-annual-meeting-in-arlington-va",
           title: 'Invited to present AI prediction work for atmospheric rivers and extreme precipitation at...',
           description: "",
           section: "News",},{id: "projects-project-1",
